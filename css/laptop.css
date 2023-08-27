@@ -494,7 +494,7 @@
   .text-pro1,
   .text-pro2 {
     display: flex;
-    border: solid 1px;
+    border: solid 1px gray;
     height: 65px;
     width: 100%;
     font-size: 100%;
@@ -535,7 +535,7 @@
   .table-progress td,
   th:not(:last-child) {
     padding: 10px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid gray;
     font-size: 18px;
   }
 
@@ -549,11 +549,11 @@
   }
 
   .table-progress th {
-    border-left: 1px solid;
+    border-left: 1px solid gray;
   }
 
   .table-progress td {
-    border-right: 1px solid;
+    border-right: 1px solid gray;
     width: 60%;
   }
 
