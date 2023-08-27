@@ -3,6 +3,13 @@
         margin: 0px 15px;
     }
 
+    /*Banner*/
+    .text-centered h1 {
+        font-size: 30px;
+    }
+
+    /*Banner*/
+
     /*Navbar*/
     .advance-img {
         display: none;
