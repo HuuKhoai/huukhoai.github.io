@@ -1,0 +1,621 @@
+  /*Chỉnh phần margin, phông chữ của tất cả phần tử*/
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Chỉnh phông chữ*/
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .section-title {
+    font-size: 150%;
+    font-weight: bold;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  section>.container-title {
+    margin: 0px 100px;
+    display: block;
+    padding: 30px 0px;
+  }
+
+  /*Banner*/
+  /*Điều chỉnh vị trí của ảnh và văn bản được chứa bởi ảnh*/
+  .container-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+
+  /*Chỉnh vị trí chữ trong banner*/
+  .text-centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*Chỉnh kích thức tiêu đề 1 trong phần Banner*/
+  .text-centered h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+
+  /*Banner*/
+
+  /*Navbar*/
+  /*Chỉnh thẻ chứa vị trí ảnh trong Navbar*/
+  .advance-img {
+    position: relative;
+  }
+
+  /*Chỉnh vị trí chữ trong Navbar*/
+  .advance-img img {
+    position: absolute;
+    top: -65px;
+    left: 135px;
+    width: 230px;
+    height: 230px;
+    border: white 14px solid;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /*Chỉnh vị trí các thẻ trong Navbar*/
+  .container-nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+  }
+
+  /*Chỉnh vị trí,chữ cái,kích thước, viền trong Navbar*/
+  .container-nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    border-left: 2px solid #000000;
+    width: 200px;
+  }
+
+  /*Hướng đến thẻ a vị trí thứ 2 để thêm viền phải trong Navbar*/
+  .container-nav a:nth-child(2) {
+    border-right: 2px solid #000000;
+  }
+
+  /*Hướng đến thẻ a vị trí thứ 5 để thêm viền phải trong Navbar*/
+  .container-nav a:nth-child(5) {
+    border-right: 2px solid #000000;
+  }
+
+  /*Hướng đến thẻ div để thêm viền phải trong Navbar*/
+  .container-nav div {
+    width: 500px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 70px;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-nav i {
+    color: rgb(0, 157, 255);
+  }
+
+  .container-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .container-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /*Navbar*/
+
+  /*About*/
+  .personal-info p {
+    margin-top: -20px;
+  }
+
+  .personal-info input {
+    height: 60%;
+    width: 100%;
+  }
+
+  .personal-info button {
+    width: 20%;
+    height: 65%;
+    background-color: #035099;
+    color: white;
+    border: 1px solid;
+    margin-top: -10px;
+  }
+
+  .target {
+    display: grid;
+    padding: 150px 70px;
+    background-color: rgb(246, 246, 246);
+  }
+
+  .personal-info {
+    display: grid;
+    padding: 150px 70px;
+    background-color: #eeeeee;
+  }
+
+  .my-info {
+    font-size: 20px;
+    margin: 25px 0px;
+    line-height: 30px;
+  }
+
+  .my-info-i {
+    color: rgb(0, 157, 255);
+    font-size: 25px;
+  }
+
+  /*About*/
+  .hide-info {
+    display: none;
+  }
+
+  .hidden-button button {
+    background-color: #e2cfa4;
+    border: 1px solid blanchedalmond;
+  }
+
+  .hidden-button {
+    display: none;
+  }
+
+  .hover-button:hover .hidden-button {
+    display: block;
+  }
+
+  #occupation-info {
+    display: none;
+  }
+
+  .grid-container-info {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .grid-container-info-progress {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    /* Tạo 3 cột bằng nhau */
+    grid-gap: 30px;
+    /* Khoảng cách giữa ô */
+    grid-template-rows: 800px;
+    /*Chỉnh height*/
+    justify-content: center;
+  }
+
+  .grid-item {
+    position: relative;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px;
+    height: 97%;
+  }
+
+  .grid-item-sh {
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px;
+    height: 90%;
+  }
+
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    float: right;
+    position: relative;
+    top: -60px;
+  }
+
+  .grid-item-progress {
+    position: relative;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px;
+    width: 430px;
+  }
+
+  .grid-item h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .grid-item i,
+  .grid-item-sh i {
+    font-size: 50px;
+  }
+
+  .time {
+    border: 2px solid rgb(0, 179, 255);
+    background-color: rgb(0, 179, 255);
+    border-radius: 5px;
+    width: 18%;
+    margin: 0px;
+  }
+
+  /*Đặt tên cho các item và điểu chỉnh grid*/
+  .item3 {
+    grid-area: col1;
+    height: 50px;
+  }
+
+  .item4 {
+    grid-area: col2;
+  }
+
+  .item5 {
+    grid-area: row2;
+    padding-left: 15px;
+    margin-top: 50px;
+  }
+
+  .decor-5 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .grid-item {
+    display: grid;
+    grid-template-areas:
+      'col1 col1 col1 col1 col2'
+      'row2 row2 row2 row2 row2'
+      'row2 row2 row2 row2 row2'
+      'row2 row2 row2 row2 row2'
+      'row2 row2 row2 row2 row2'
+      'row2 row2 row2 row2 row2';
+  }
+
+  /*Đặt tên cho các item và điểu chỉnh grid*/
+  .item5 h3::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    background-color: rgb(0, 126, 253);
+    position: absolute;
+    left: 18px;
+    border-radius: 50%;
+    margin-top: 6px;
+  }
+
+  .item5 h3 {
+    font-size: 20px;
+  }
+
+  .time-info {
+    display: inline-block;
+    border: rgb(0, 191, 255) 2px;
+    background-color: rgb(0, 191, 255);
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+    padding: 3px;
+  }
+
+  .mb-decor-5 {
+    padding-top: 55px;
+  }
+
+  /*Info*/
+
+  /*Hobby*/
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px aqua;
+    margin-bottom: 10px;
+    margin-top: 70px;
+  }
+
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-basket,
+  .ic-hotairballoon {
+    font-size: 25px !important;
+    color: aqua;
+  }
+
+  .m-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .m-icon p {
+    font-size: 14px;
+  }
+
+  /*Hobby*/
+
+  /*Language*/
+  .progress-segment {
+    background: #00aedd;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 70px;
+  }
+
+  .progress-segment-none {
+    background-color: #ddd !important;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 70px;
+  }
+
+  .English,
+  .China {
+    margin-bottom: 45px;
+  }
+
+  .skills1,
+  .skills2,
+  .skills3,
+  .skills4 {
+    margin-bottom: 30px;
+  }
+
+  .language,
+  .skills {
+    padding-top: 40px;
+  }
+
+  .view-1,
+  .view-0,
+  .view-2 {
+    position: absolute;
+  }
+
+  .view-0 {
+    top: 85px;
+  }
+
+  .view-1 {
+    top: 85px;
+  }
+
+  /*Language*/
+
+  /*Certificate*/
+  .row-1 {
+    width: 100%;
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .cert-dbi-1 {
+    width: 200px;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* Khoảng cách giữa các hộp */
+  }
+
+  .box img {
+    width: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    /* Khoảng cách giữa hình ảnh và nội dung */
+  }
+
+  .content {
+    flex: 1;
+
+  }
+
+  .row-border-cer {
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 10px;
+  }
+
+  h3,
+  p {
+    margin: 0;
+  }
+
+  .bg-grey-cer {
+    background-color: #f7f7f7;
+    margin: 0px 30px;
+    margin-top: 30px;
+  }
+
+  .container-content {
+    display: grid;
+    justify-content: center;
+  }
+
+  .border-cl {
+    border-left: 1px #d6c08d solid
+  }
+
+  /*Certificate*/
+
+  /*Progress*/
+  .grid-container-info-progress img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .box-progress {
+    background-color: #ccc;
+    padding: 10px;
+  }
+
+  .grid-item-progress {
+    padding: 0px;
+  }
+
+  .text-pro1,
+  .text-pro2 {
+    display: flex;
+    border: solid 1px;
+    height: 65px;
+    width: 100%;
+    font-size: 100%;
+    text-indent: 5px;
+    align-items: center;
+  }
+
+  .icon {
+    display: flex;
+  }
+
+  .text {
+    margin-left: 4px;
+    /* Khoảng cách giữa icon và chữ */
+  }
+
+  .table-progress th {
+    text-align: left;
+    width: 114px;
+    height: 113px;
+  }
+
+
+  table {
+    min-height: 390px;
+  }
+
+  .time-pro2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #026eea;
+    border-radius: 50px;
+    text-indent: 5px;
+    color: #ddd;
+    margin: 8px;
+  }
+
+  .table-progress td,
+  th:not(:last-child) {
+    padding: 10px;
+    border-bottom: 1px solid;
+    font-size: 18px;
+  }
+
+  .pro-decor img {
+    width: 100%;
+  }
+
+  .pro-decor a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .table-progress th {
+    border-left: 1px solid;
+  }
+
+  .table-progress td {
+    border-right: 1px solid;
+    width: 60%;
+  }
+
+  .decor-icon {
+    padding-top: 15px;
+  }
+
+  /*Progress*/
+
+  /*Footer*/
+  .link {
+    margin-top: 30px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .link a {
+    text-decoration: none
+  }
+
+  .container-link {
+    display: flex;
+    align-items: center;
+    /* căn giữa theo chiều dọc */
+    margin: 10px;
+
+  }
+
+  .circle-link {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+  }
+
+  .container-margin {
+    margin-left: 10px;
+  }
+
+  .bg-grey-link {
+    background-color: #f7f7f7;
+    margin: 0px 30px;
+  }
+
+  /*Footer*/
+
+  @media screen and (max-width: 1024px) {
+    table {
+      min-height: 490px;
+    }
+
+    .personal-info button {
+      margin-top: -50px;
+    }
+
+    .grid-item {
+      height: 97%;
+    }
+
+    .mb-decor-5 {
+      padding-top: 84px;
+    }
+
+  }

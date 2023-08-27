@@ -1,0 +1,49 @@
+@media screen and (max-width: 991px) {
+
+    /*Digital Cv*/
+    .row-1 {
+        height: 100%;
+    }
+
+    .row-0 {
+        height: 100%;
+        border: 10px solid blue;
+    }
+
+    #Goals .row-goal,
+    #Team .row-team,
+    #Timeline .row-timeline,
+    #Primary .row-primary {
+        margin: 0px 20px;
+    }
+
+    /*Goals*/
+    #Goals .row-goal,
+    #Team .row-team,
+    #Primary .row-primary,
+    #Timeline .row-timeline {
+        flex-direction: column;
+    }
+
+    #Goals .content-goal,
+    #Team .content-team,
+    #Primary .content-primary,
+    #Timeline .content-timeline {
+        align-self: start;
+    }
+
+    /*Scopes*/
+    #Scopes .My-scope {
+        display: block;
+    }
+
+    /*Timeline*/
+    #Timeline .icon {
+        align-self: start;
+    }
+
+    #Timeline .row-timeline {
+        margin: 10px 20px;
+    }
+
+}

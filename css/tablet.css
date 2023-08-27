@@ -1,0 +1,84 @@
+ @media screen and (max-width: 991px) {
+     section>.container-title {
+         margin: 0px 10px;
+     }
+
+     /*Navbar*/
+     .advance-img {
+         display: none;
+     }
+
+
+
+     /*Navbar*/
+
+     /*About*/
+     .target h1 {
+         width: 290px;
+     }
+
+     .target,
+     .personal-info {
+         padding: 45px;
+     }
+
+
+
+     .personal-info button {
+         width: 30%;
+     }
+
+     /*About*/
+
+     /*Info*/
+
+
+     .grid-item-sh {
+         height: 97%;
+         overflow: hidden;
+     }
+
+     .music,
+     .game,
+     .shopping,
+     .travel {
+         padding: 4px;
+         float: left;
+     }
+
+     .box {
+         display: block;
+     }
+
+     .box h3 {
+         font-size: 20px;
+     }
+
+     .mb-decor-5 {
+         padding-top: 47px;
+     }
+
+     /*Info*/
+
+     /*Project*/
+     .text-pro1,
+     .text-pro2 {
+         font-size: 70%;
+     }
+
+     .table-progress td,
+     th:not(:last-child) {
+         padding: 0px;
+         font-size: 10px;
+     }
+
+     .table-progress th {
+         border-left: 1px solid;
+         padding-left: 10px;
+     }
+
+     .table-progress td {
+         border-right: 1px solid;
+     }
+
+ }

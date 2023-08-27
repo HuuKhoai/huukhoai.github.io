@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame {
+    height: 100%;
+    padding: 20px;
+}
+
+.container-fluid {
+    margin: 0px 30px !important;
+    width: auto !important;
+}
+
+.row-0 {
+    border: 10px solid blue;
+}
+
+#Goals,
+#Team,
+#Scopes,
+#Primary,
+#Timeline {
+    border: 10px solid blue;
+}
+
+#Goals h1,
+#Team h1,
+#Scopes h1,
+#Primary h1,
+#Timeline h1 {
+    padding-top: 10px;
+    color: blue;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+/*Goals*/
+#Goals .row-goal,
+#Team .row-team,
+#Primary .row-primary {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+#Goals .icon {
+    font-size: 30px;
+    padding: 0px 40px;
+}
+
+#Goals .content-goal,
+#Team .content-team,
+#Timeline .content-timeline,
+#Primary .content-primary {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#Goals .goal-footer,
+#Team .team-footer,
+#Timeline .timeline-footer,
+#Primary .primary-footer {
+    padding: 40px 0px;
+}
+
+/*Team*/
+#Team .icon {
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+#Team .row-team {
+    margin: 10px;
+}
+
+/*Time line*/
+#Timeline .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e88ff;
+    color: white;
+}
+
+#Timeline .row-timeline {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    border-bottom: 1px dotted blue;
+}
+
+/*Scopes*/
+#Scopes .My-scope {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+    gap: 50px;
+}
+
+/*Primary*/
+#Primary .icon {
+    font-size: 30px;
+    padding: 0px 20px;
+}

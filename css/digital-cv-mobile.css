@@ -1,0 +1,19 @@
+   @media screen and (max-width: 767px) {
+       /*Digital Cv*/
+
+       #Goals .row-goal,
+       #Team .row-team,
+       #Timeline .row-timeline {
+           margin: 0px;
+       }
+
+       #Scopes .My-scope {
+           padding: 0px;
+           gap: 0px;
+       }
+
+       #Goals .icon {
+           padding: 0px 30px;
+       }
+
+   }
